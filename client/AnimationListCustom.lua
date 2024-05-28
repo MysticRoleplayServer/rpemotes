@@ -118,6 +118,39 @@ CustomDP.PropEmotes = {
 	["bmcoffee3"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee3", AnimationOptions = { Prop = 'v_club_vu_coffeecup', PropBone = 28422, PropPlacement = {0.0, 0.0, -0.06, 0.0, 0.0, 0.0}, EmoteLoop = true, EmoteMoving = true, }},
 	["milk"] = {"mp_player_intdrink", "loop_bottle", "Milk", AnimationOptions = { Prop = "v_res_tt_milk", PropBone = 18905, PropPlacement = {0.10, 0.008, 0.07, 240.0, -60.0}, EmoteMoving = true, EmoteLoop = true, }},
     ["donut2"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Donut2", AnimationOptions = { Prop = 'prop_donut_02', PropBone = 18905, PropPlacement = {0.13, 0.05, 0.02, -50.0, 100.0, 270.0}, EmoteMoving = true, EmoteLoop = true, }},
+    -- m-insurance
+    ["health_insurance"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Card", AnimationOptions =
+    {
+        Prop = "m-insurance_prop_card_health",
+        PropBone = 18905,
+        PropPlacement = {0.17, 0.03, 0.04, 1.0, 184.0, 0.0},
+        EmoteLoop = true,
+        EmoteMoving = true,
+    }},
+    ["car_insurance"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Card", AnimationOptions =
+    {
+        Prop = "m-insurance_prop_card_vehicle",
+        PropBone = 18905,
+        PropPlacement = {0.17, 0.03, 0.04, 1.0, 184.0, 0.0},
+        EmoteLoop = true,
+        EmoteMoving = true,
+    }},
+    ["car_registration"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Card", AnimationOptions =
+    {
+        Prop = "m-insurance_prop_card_registration",
+        PropBone = 18905,
+        PropPlacement = {0.17, 0.03, 0.04, 1.0, 184.0, 0.0},
+        EmoteLoop = true,
+        EmoteMoving = true,
+    }},
+    ["home_insurance"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Card", AnimationOptions =
+    {
+        Prop = "m-insurance_prop_card_house",
+        PropBone = 18905,
+        PropPlacement = {0.17, 0.03, 0.04, 1.0, 184.0, 0.0},
+        EmoteLoop = true,
+        EmoteMoving = true,
+    }},
 }
 
 -----------------------------------------------------------------------------------------
